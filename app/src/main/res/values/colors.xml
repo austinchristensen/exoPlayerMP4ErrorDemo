@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimaryLight">#63D9FF</color>
+    <color name="colorPrimaryAccent">#4FAAFF</color>
+    <color name="even_lighter_gray">#c0c0c0</color>
+    <color name="lighter_gray">#d9d9d9</color>
+    <color name="real_white">#fff</color> <!-- unfortunately some OEMs override white or at least samsung used to -->
+    <color name="opaque_black_overlay">#84000000</color> <!-- needs some dialing in but close to Hulu's overlay -->
+</resources>

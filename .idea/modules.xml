@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Video_Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Video_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Video_Demo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Video_Demo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Video_Demo.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/Video_Demo.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-utils/Video_Demo.common-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/common-utils/Video_Demo.common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dependency-injection/Video_Demo.dependency-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/dependency-injection/Video_Demo.dependency-injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json/Video_Demo.json.iml" filepath="$PROJECT_DIR$/.idea/modules/json/Video_Demo.json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logging/Video_Demo.logging.iml" filepath="$PROJECT_DIR$/.idea/modules/logging/Video_Demo.logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/models/Video_Demo.models.iml" filepath="$PROJECT_DIR$/.idea/modules/models/Video_Demo.models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/networking/Video_Demo.networking.iml" filepath="$PROJECT_DIR$/.idea/modules/networking/Video_Demo.networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/player/Video_Demo.player.iml" filepath="$PROJECT_DIR$/.idea/modules/player/Video_Demo.player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/view-models/Video_Demo.view-models.iml" filepath="$PROJECT_DIR$/.idea/modules/view-models/Video_Demo.view-models.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "person.mikepatterson.videodemo"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    android {
+        compileOptions {
+            targetCompatibility = "8"
+            sourceCompatibility = "8"
+        }
+    }
+
+}
+
+dependencies {
+    implementation project(":common-utils")
+    implementation project(":dependency-injection")
+    implementation project(":logging")
+    implementation project(":models")
+    implementation project(":networking")
+    implementation project(":player")
+    implementation project(":view-models")
+
+    implementation "${Dependencies.appCompat}"
+    implementation "${Dependencies.androidxRecyclerView}"
+    implementation "${Dependencies.constraintLayout}"
+    implementation "${Dependencies.koin}"
+    implementation "${Dependencies.koin_android}"
+    implementation "${Dependencies.kotlin_sdk}"
+    implementation "${Dependencies.ktx}"
+    implementation "${Dependencies.lifecycle}"
+    testImplementation testDependencies
+}

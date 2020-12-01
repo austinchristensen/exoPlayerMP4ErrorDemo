@@ -1,0 +1,21 @@
+object Dependencies {
+
+    const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
+    const val androidxRecyclerView = "androidx.recyclerview:recyclerview:${Versions.androidxRecyclerView}"
+    const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
+    const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
+    const val exoplayerCore = "com.google.android.exoplayer:exoplayer-core:${Versions.exoplayer}"
+    const val exoplayerDash = "com.google.android.exoplayer:exoplayer-dash:${Versions.exoplayer}"
+    const val exoplayerHls = "com.google.android.exoplayer:exoplayer-hls:${Versions.exoplayer}"
+    const val exoplayerOkHttp = "com.google.android.exoplayer:extension-okhttp:${Versions.exoplayer}"
+    const val gradle = "com.android.tools.build:gradle:${Versions.gradle}"
+    const val koin = "org.koin:koin-gradle-plugin:${Versions.koin}"
+    const val koin_android = "org.koin:koin-android:${Versions.koin}"
+    const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
+    const val kotlin_sdk = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
+    const val ktx = "androidx.core:core-ktx:${Versions.ktx}"
+    const val lifecycle = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycle}"
+    const val okhttp = "com.squareup.okhttp3:okhttp:${Versions.okhttp}"
+    const val timber = "com.jakewharton.timber:timber:${Versions.timber}"
+}
